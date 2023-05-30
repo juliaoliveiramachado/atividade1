@@ -4,7 +4,7 @@ import csv
 st.title('Atividade de Programação')
 st.caption('Julia Oliveira Machado')
 
-df = pd.read_csv('paises.csv', sep =';')
+df = pd.read_csv('paises.csv', sep =',')
 st.dataframe(df)
 
 
