@@ -1,5 +1,3 @@
-pip install pandas
-
 import streamlit as st
 import panda as pd
 import csv
